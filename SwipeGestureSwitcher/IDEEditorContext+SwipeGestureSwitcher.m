@@ -8,19 +8,20 @@
 
 #import "IDEEditorContext+SwipeGestureSwitcher.h"
 #import "NSObject+Swizzle.h"
+#import "SwipeGestureSwitcher.h"
 
 @implementation IDEEditorContext (SwipeGestureSwitcher)
 
 + (void)load
 {
-    NSLog(@"loaded.");
     [self _sgs_swizzleInstanceMethod:@selector(wantsScrollEventsForSwipeTrackingOnAxis:)
                        withNewMethod:@selector(_sgs_wantsScrollEventsForSwipeTrackingOnAxis:)];
 }
 
 - (BOOL)_sgs_wantsScrollEventsForSwipeTrackingOnAxis:(long long)arg
 {
-    return NO;
+    BOOL gestureEnabled = [[NSUserDefaults standardUserDefaults] boolForKey:kSwipeGestureEnabledStateKey];
+    return gestureEnabled ? [self _sgs_wantsScrollEventsForSwipeTrackingOnAxis:arg] : NO;
 }
 
 @end

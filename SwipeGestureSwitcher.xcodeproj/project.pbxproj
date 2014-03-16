@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12A727A18D57A22006E45C7 /* SwipeGestureSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B12A727918D57A22006E45C7 /* SwipeGestureSwitcher.m */; };
 		B1E8394F18D564BB002600B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8394E18D564BB002600B5 /* Cocoa.framework */; };
 		B1E8395918D564BB002600B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E8395718D564BB002600B5 /* InfoPlist.strings */; };
 		B1E8396218D565EA002600B5 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8396118D565EA002600B5 /* NSObject+Swizzle.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12A727818D57A22006E45C7 /* SwipeGestureSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeGestureSwitcher.h; sourceTree = "<group>"; };
+		B12A727918D57A22006E45C7 /* SwipeGestureSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureSwitcher.m; sourceTree = "<group>"; };
 		B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureSwitcher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E8394E18D564BB002600B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B1E8395118D564BB002600B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -106,6 +109,8 @@
 				B1E8395518D564BB002600B5 /* Supporting Files */,
 				B1E8396518D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.h */,
 				B1E8396618D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m */,
+				B12A727818D57A22006E45C7 /* SwipeGestureSwitcher.h */,
+				B12A727918D57A22006E45C7 /* SwipeGestureSwitcher.m */,
 			);
 			path = SwipeGestureSwitcher;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			files = (
 				B1E8396218D565EA002600B5 /* NSObject+Swizzle.m in Sources */,
 				B1E8396718D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m in Sources */,
+				B12A727A18D57A22006E45C7 /* SwipeGestureSwitcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
