@@ -10,10 +10,7 @@
 @class IDEEditorDocument;
 @class DVTStateToken;
 
-@class DVTBorderedView;
-@class IDENavBar;
-@class DVTGradientImagePopUpButton;
-@class IDEEditorStepperView;
+@class DVTBorderedView, IDENavBar, DVTGradientImagePopUpButton, IDEEditorStepperView;
 @class DVTStateRepository, DVTFileDataType, IDEEditorArea, DVTNotificationToken, DVTObservingToken, DVTBindingToken;
 @class IDEEditorGeniusResults, IDEEditorHistoryController, CDUnknownBlockType, DVTStackBacktrace, DVTScopeBarsManager;
 @class IDEEditorMultipleContext, _IDEGeniusResultsContext, IDEEditorReadOnlyIndicatorController;
