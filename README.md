@@ -1,5 +1,5 @@
 ### What is this
-Annoyed by Xcode's "swipe to navigate to previous/next file" gesture when using trackpad while what
+Annoyed by Xcode's "swipe to navigate to previous/next file" gesture when using trackpad, while what
 you're trying to do is just to scroll the source?
 
 Well, you can turn it off by setting:
@@ -17,7 +17,7 @@ This plug-in adds a menu item to the `View` menu and gives you the control to tu
 
 It doesn't do anything else but just try to disable the swipe gesture. So the file's browsing
 history is still there. You can use the default navigating shortcut (`cmd`+`ctrl`+`←` and
-`cmd`+`ctrl`+`→`, which you can find in the `Navigate` menu) or using the left/right arrow in
+`cmd`+`ctrl`+`→`, which you can find in the `Navigate` menu) or use the left/right arrow in
 navigation bar to perform the navigation.
 
 > This plug-in is built under OS X 10.9.2 & Xcode 5.1. I haven't tested it on other versions.
