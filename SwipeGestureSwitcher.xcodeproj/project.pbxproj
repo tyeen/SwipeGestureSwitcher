@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		B1E8394F18D564BB002600B5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8394E18D564BB002600B5 /* Cocoa.framework */; };
 		B1E8395918D564BB002600B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1E8395718D564BB002600B5 /* InfoPlist.strings */; };
+		B1E8396218D565EA002600B5 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8396118D565EA002600B5 /* NSObject+Swizzle.m */; };
+		B1E8396418D56637002600B5 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8396318D56637002600B5 /* IDEKit.framework */; };
+		B1E8396718D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8396618D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m */; };
+		B1E8396B18D569F0002600B5 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8396A18D569F0002600B5 /* IDEFoundation.framework */; };
+		B1E8396E18D569FF002600B5 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8396C18D569FF002600B5 /* DVTFoundation.framework */; };
+		B1E8396F18D569FF002600B5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E8396D18D569FF002600B5 /* DVTKit.framework */; };
+		B1E8397218D56BCB002600B5 /* IDEViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = B1E8397118D56BCB002600B5 /* IDEViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureSwitcher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureSwitcher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E8394E18D564BB002600B5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B1E8395118D564BB002600B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1E8395218D564BB002600B5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -20,6 +27,18 @@
 		B1E8395618D564BB002600B5 /* SwipeGestureSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeGestureSwitcher-Info.plist"; sourceTree = "<group>"; };
 		B1E8395818D564BB002600B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1E8395A18D564BB002600B5 /* SwipeGestureSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeGestureSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		B1E8396018D565EA002600B5 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		B1E8396118D565EA002600B5 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		B1E8396318D56637002600B5 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		B1E8396518D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEEditorContext+SwipeGestureSwitcher.h"; sourceTree = "<group>"; };
+		B1E8396618D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEEditorContext+SwipeGestureSwitcher.m"; sourceTree = "<group>"; };
+		B1E8396918D566B4002600B5 /* IDEEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditorContext.h; sourceTree = "<group>"; };
+		B1E8396A18D569F0002600B5 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		B1E8396C18D569FF002600B5 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		B1E8396D18D569FF002600B5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		B1E8397018D56A67002600B5 /* DVTCancellable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTCancellable.h; sourceTree = "<group>"; };
+		B1E8397118D56BCB002600B5 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		B1E8397318D56DC8002600B5 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +46,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E8396E18D569FF002600B5 /* DVTFoundation.framework in Frameworks */,
+				B1E8396B18D569F0002600B5 /* IDEFoundation.framework in Frameworks */,
+				B1E8396F18D569FF002600B5 /* DVTKit.framework in Frameworks */,
+				B1E8396418D56637002600B5 /* IDEKit.framework in Frameworks */,
 				B1E8394F18D564BB002600B5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +69,7 @@
 		B1E8394C18D564BB002600B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.bundle */,
+				B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +77,10 @@
 		B1E8394D18D564BB002600B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1E8396C18D569FF002600B5 /* DVTFoundation.framework */,
+				B1E8396D18D569FF002600B5 /* DVTKit.framework */,
+				B1E8396A18D569F0002600B5 /* IDEFoundation.framework */,
+				B1E8396318D56637002600B5 /* IDEKit.framework */,
 				B1E8394E18D564BB002600B5 /* Cocoa.framework */,
 				B1E8395018D564BB002600B5 /* Other Frameworks */,
 			);
@@ -73,7 +100,12 @@
 		B1E8395418D564BB002600B5 /* SwipeGestureSwitcher */ = {
 			isa = PBXGroup;
 			children = (
+				B1E8396818D566A8002600B5 /* Xcode Header */,
+				B1E8396018D565EA002600B5 /* NSObject+Swizzle.h */,
+				B1E8396118D565EA002600B5 /* NSObject+Swizzle.m */,
 				B1E8395518D564BB002600B5 /* Supporting Files */,
+				B1E8396518D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.h */,
+				B1E8396618D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m */,
 			);
 			path = SwipeGestureSwitcher;
 			sourceTree = "<group>";
@@ -86,6 +118,17 @@
 				B1E8395A18D564BB002600B5 /* SwipeGestureSwitcher-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1E8396818D566A8002600B5 /* Xcode Header */ = {
+			isa = PBXGroup;
+			children = (
+				B1E8397318D56DC8002600B5 /* DVTViewController.h */,
+				B1E8397118D56BCB002600B5 /* IDEViewController.h */,
+				B1E8397018D56A67002600B5 /* DVTCancellable.h */,
+				B1E8396918D566B4002600B5 /* IDEEditorContext.h */,
+			);
+			name = "Xcode Header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +148,7 @@
 			);
 			name = SwipeGestureSwitcher;
 			productName = SwipeGestureSwitcher;
-			productReference = B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.bundle */;
+			productReference = B1E8394B18D564BB002600B5 /* SwipeGestureSwitcher.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E8397218D56BCB002600B5 /* IDEViewController.h in Resources */,
 				B1E8395918D564BB002600B5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E8396218D565EA002600B5 /* NSObject+Swizzle.m in Sources */,
+				B1E8396718D56662002600B5 /* IDEEditorContext+SwipeGestureSwitcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,12 +287,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwipeGestureSwitcher/SwipeGestureSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "SwipeGestureSwitcher/SwipeGestureSwitcher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
@@ -254,12 +307,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SwipeGestureSwitcher/SwipeGestureSwitcher-Prefix.pch";
 				INFOPLIST_FILE = "SwipeGestureSwitcher/SwipeGestureSwitcher-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
 		};
@@ -282,6 +342,7 @@
 				B1E8395F18D564BB002600B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
