@@ -1,0 +1,30 @@
+### What is this
+Annoyed by Xcode's "swipe to navigate to previous/next file" gesture when using trackpad while what
+you're trying to do is just to scroll the source?
+
+Well, you can turn it off by setting:
+
+    System Preferences -> Trackpad -> More Gestures -> Swipe between pages
+
+But, how about using Safari while coding? Do you prefer to turning the System Preferences off when
+coding in Xcode and then turning it on before switching to Safari and then turning it off again to
+go back to Xcode?
+
+If that bothered you, you may try this plug-in.
+This plug-in adds a menu item to the `View` menu and gives you the control to turn that gesture on or off.
+
+
+
+> This plug-in is built under OS X 10.9.2 & Xcode 5.1. I haven't tested it on other versions.
+
+### Installation
+* Download the source and open it in Xcode.
+* Build it(`cmd` + `B`) and restart Xcode.
+* A new menu item should be in the "View" menu.
+
+The gesture is enabled by default. So the menu item should look like "Disable Swipe Gesture".
+
+### Uninstallation
+Just delete the bundle with the name of `SwipeGestureSwitcher.xcplugin` in
+
+    ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
