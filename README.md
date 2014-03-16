@@ -34,3 +34,9 @@ The gesture is enabled by default. So the menu item should look like "Disable Sw
 Just delete the bundle with the name of `SwipeGestureSwitcher.xcplugin` in
 
     ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+
+This plug-in also added a new key-value pair with the name of `com.tyeen.xcplugin.swipegestureswitcher.enabled` to
+
+    ~/Library/Preferences/com.apple.dt.Xcode.plist
+
+It won't effect anything, but for uninstalling clearly, you may want to remove it, too.
