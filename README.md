@@ -24,9 +24,11 @@ navigation bar to perform the navigation.
 But it should work:)
 
 ### Installation
-* Download the source and open it in Xcode.
-* Build it(`cmd` + `B`) and restart Xcode.
-* A new menu item should be in the "View" menu.
+You can either:
+* Use [Alcatraz](http://alcatraz.io/)
+* Download the source and build it(`cmd` + `B`) in Xcode.
+
+Then restart Xcode. A new menu item is added in the View menu.
 
 The gesture is enabled by default. So the menu item should look like "Disable Swipe Gesture".
 
