@@ -1,3 +1,10 @@
+### NOTE
+Since Xcode 8, all third party plug-ins are prohibited. This plug-in won't work by default on
+Xcode version higher than 8. There are some ways to workaround it, but for security reasons,
+I don't recommend it.
+
+However, I'll try my best to continue supporting future Xcode versions here.
+
 ### What is this
 Annoyed by Xcode's "swipe to navigate to previous/next file" gesture when using trackpad, while what
 you're trying to do is just to scroll the source?
