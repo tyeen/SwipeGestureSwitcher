@@ -59,7 +59,7 @@
 // Remaining properties
 @property(retain) DVTStackBacktrace *creationBacktrace;
 @property(readonly) DVTStackBacktrace *invalidationBacktrace;
-@property(copy, nonatomic) NSString *title; // @dynamic title;
+@property(copy, atomic) NSString *title; // @dynamic title;
 @property(readonly, nonatomic, getter=isValid) BOOL valid;
 
 @end
